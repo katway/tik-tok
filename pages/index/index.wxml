@@ -65,14 +65,14 @@
         <cover-view class='apply apply-active'>
           <cover-view>最新</cover-view>
         </cover-view>
-        <cover-view class='apply' catchtap='goFollow'>
-          <cover-view>关注</cover-view>
-        </cover-view>
-        <cover-view class='apply' catchtap='goAddVideo'>
-          <cover-image class="icon" src='/assets/image/addVideo.png' bindtap='apply'></cover-image>
-        </cover-view>
-        <cover-view class='apply' catchtap='goSearch'>
+      <cover-view class='apply' catchtap='goSearch'>
         <cover-view>发现</cover-view>
+        </cover-view>
+        <cover-view class='apply' catchtap='goAddVideo'style='visibility:hidden'>
+          <cover-image class="icon" src='/assets/image/addVideo.png' bindtap='apply'></cover-image>
+        </cover-view>        
+          <cover-view class='apply' catchtap='goFollow'>
+          <cover-view>关注</cover-view>
         </cover-view>
         <cover-view class='apply' catchtap='goHome'>
           <cover-view>我的</cover-view>
@@ -142,14 +142,14 @@
     <view class='apply apply-active'>
       <view>最新</view>
     </view>
-    <view class='apply' catchtap='goFollow'>
-      <view>关注</view>
-    </view>
+      <view class='apply' catchtap='goSearch'>
+      <view>发现</view>
+    </view>   
     <view class='apply' catchtap='goAddVideo'>
       <image class="icon" src='/assets/image/addVideo.png' bindtap='apply'></image>
     </view>
-    <view class='apply' catchtap='goSearch'>
-      <view>发现</view>
+   <view class='apply' catchtap='goFollow'>
+      <view>关注</view>
     </view>
     <view class='apply' catchtap='goHome'>
       <view>我的</view>
